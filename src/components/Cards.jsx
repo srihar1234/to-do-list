@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 import { useState } from "react";
-import UpdateForm from "./updateForm";
+import EditForm from "./EditForm";
 import Form from "./Form";
 import StatusBar from "./StatusBar";
 
@@ -29,7 +29,7 @@ export default function Cards({task,setTask}) {
                 setTask={setTask}
                 />
                 :
-                <UpdateForm
+                <EditForm
                 task={task}
                 setTask={setTask}
                 setShow = {setShow}

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import './App.css'
-import TopBar from './components/topBar'
+import TopBar from './components/TopBar'
 import Cards from './components/Cards'
 import { useState } from 'react'
 
